@@ -760,7 +760,7 @@ Sub Miseenpagevariant()
         End With
     End If
     
-    If ThisWorkbook.Sheets("Mergevariant").Range("E3").Value = "Homo_sapiens_refseq_GRCh37.p13_Genes" Or ThisWorkbook.Sheets("Mergevariant").Range("E3").Value = "gene (Homo_sapiens_refseq_GRCh37.p13_Genes)" Then
+    If ThisWorkbook.Sheets("Mergevariant").Range("E3").Value = "gene" Or ThisWorkbook.Sheets("Mergevariant").Range("E3").Value = "gene (Homo_sapiens_refseq_GRCh37.p13_Genes)" Then
         With ThisWorkbook.Sheets("Feuil1").Range("L7:L9").Interior
             .Pattern = xlSolid
             .PatternColorIndex = xlAutomatic
@@ -778,4 +778,4 @@ End Sub
 
 
 
-ÿÿÿ                                                     8Ð ƒT=  J=  PÐ  €?                  €?                  €?      ìC €DYÙ ³  €?                 DÐÈJ= PÐÈJ=                                          €?                  €?      8Ð        ÈJ=  PÐ  €?  ˜A  €?ÿÿÿÿ €êC ÀD  C  ÈA                            ÿÿÿÿ                                        
+   P   P   P   P   P   P   2 < Ò  Ÿ  P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   P   
